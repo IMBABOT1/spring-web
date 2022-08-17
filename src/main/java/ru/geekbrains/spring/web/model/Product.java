@@ -5,16 +5,16 @@ public class Product {
 
     private Long id;
     private String title;
-    private int cots;
+    private int cost;
 
     public Product() {
 
     }
 
-    public Product(Long id, String title, int cots) {
+    public Product(Long id, String title, int cost) {
         this.id = id;
         this.title = title;
-        this.cots = cots;
+        this.cost = cost;
     }
 
     public Long getId() {
@@ -25,7 +25,7 @@ public class Product {
         return title;
     }
 
-    public int getCots() {
-        return cots;
+    public int getCost() {
+        return cost;
     }
 }
